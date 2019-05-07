@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/login.css"/>
+	<link rel="stylesheet" href="css/login-iconfont.css"/>
+</head>
+<body>
+	<div class="header">
+		<div class="h-2">
+			<span class="iconfont">&#xe764;</span>
+			<span class="tishi">
+            为确保您账户的安全及正常使用，依《网络安全法》相关要求，6月1日起会员账户需绑定手机。如您还未绑定，请尽快完成，感谢您的理解及支持！
+			</span>
+			<a href="#" class="jianyi">
+				<i class="iconfont">&#xe622;</i>
+				"登录页面"改进建议
+			</a>
+		</div>
+	</div>
+	<div class="ck">
+		<a href="#"></a>
+		<div class="dlk">
+			<div class="dlk-2">
+				<div class="xuanze">
+						<i class="iconfont">&#xe603;</i>
+					
+				</div>
+				<h3>手机扫码，安全登录</h3>
+				<div class="twosj">
+					<div class="twowm">
+					<img src="img/erwm.png" alt="扫码登录更安全">
+					</div>
+					<div class="sj">
+						<img src="img/sj.png"/>
+					</div>
+					
+				</div>
+				
+				<div class="sys">
+					<i class="iconfont">&#xe617;
+</i>
+					<div class="sys-r">
+						打开<a href="#">手机淘宝</a> | 
+						<a href="#">手机天猫</a>
+						<span>扫一扫登录</span>
+					</div>
+
+				</div>
+				<div class="dlk-f">
+					<a href="#">密码登录</a>
+					<a href="#">免费注册</a>
+				</div>
+			</div>
+			<div class="dlk-3">
+							<div class="xuanze-2">
+									<i class="iconfont">&#xe62e;
+</i>
+								
+							</div>
+							<div class="anquan">
+								<i class="iconfont">&#xe62c;</i>
+								扫码登录更安全
+							</div>
+							<form>
+								<div class="name">
+									<div class="biao">
+										<i class="iconfont">&#xe618;</i>
+									</div>
+								
+								<input class="userphone" type="text" placeholder="会员名/邮箱/手机号">
+								</div>
+								<div class="name-2">
+									<div class="biao">
+										<i class="iconfont">&#xe601;
+</i>
+									</div>
+								
+								<input class="userpass" type="password" >
+								</div>
+								
+								<input class="dlbtn" type="button" value="登  录">
+							</form>
+							
+							<h3>密码登录</h3>
+							<div class="dlfs">
+								<span><i class="iconfont">&#xe666;
+</i>微博登录</span>
+								<span><i class="iconfont">&#xe600;</i>支付宝登录</span>
+
+							</div>
+							<div class="dlk-f">
+								<a href="#">忘记密码</a>
+								<a href="#">忘记会员名</a>
+								<a href="#">免费注册</a>
+							</div>
+						</div>
+					</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer-2">
+			<div class="yqlj">
+				<a href="#">阿里巴巴集团</a>
+				<a href="#">阿里巴巴国际站</a>
+				<a href="#">阿里巴巴中国站</a>
+				<a href="#">全球速卖通</a>
+				<a href="#">淘宝网</a>
+				<a href="#">天猫</a>
+				<a href="#">聚划算</a>
+				<a href="#">一淘</a>
+				<a href="#">阿里妈妈</a>
+				<a href="#">飞猪</a>
+				<a href="#">虾米</a>
+				<a href="#">阿里云计算</a>
+				<a href="#">云OS</a>
+				<a href="#">万网</a>
+				<a href="#">支付宝</a>
+				<a href="#">来往</a>
+			</div>
+			<div class="gytb">
+				<a href="#">关于淘宝</a>
+				<a href="#">合作伙伴</a>
+				<a href="#">营销中心</a>
+				<a href="#">廉正举报</a>
+				<a href="#">联系客服</a>
+				<a href="#">开放平台</a>
+				<a href="#">诚征英才</a>
+				<a href="#">联系我们</a>
+				<a href="#">网站地图</a>
+				<a href="#">法律声明</a>
+				<a href="#">隐私权政策</a>
+				<span>© 2019 Taobao.com 版权所有</span>
+			</div>
+			<p>
+				<span>网络文化经营许可证：浙网文<a href="#">[2016]0132-032</a>号</span>
+				<b>|</b>
+				<span>增值电信业务经营许可证：浙B2-20080224-1</span>
+				<b>|</b>
+				<span>信息网络传播视听节目许可证：1109364号</span>
+			</p>
+			<div class="a"><a href="#"><img src="img/wj.gif"/></a></div>
+		</div>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="js/cookieTools.js"></script>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript">
+	$(".twowm").mouseenter(function(){
+		$(".twowm").animate({left:0});
+		$(".sj").css({display:'block'});
+	});
+	function showimg(){
+		
+	}
+	$(".twowm").mouseout(function(){
+		$(".sj").css({display:'none'});
+		$(".twowm").animate({left:80});
+	});
+	$(".xuanze").click(function(){
+		$(".dlk-2").css({display:'none'});
+		$(".dlk-3").css({display:'block'});
+		
+	});
+	$(".xuanze-2").click(function(){
+		$(".dlk-3").css({display:'none'});
+		$(".dlk-2").css({display:'block'});
+		
+	});
+	window.onload = function () {
+
+	$(".dlbtn").click(function(){
+	
+		let xhr = new XMLHttpRequest();
+		//2、
+		xhr.open("post","php/loginCheck.php",true);
+		
+		xhr.onreadystatechange = function(){
+			if(xhr.readyState==4 && xhr.status==200){
+				console.log(xhr.responseText);
+				if(xhr.responseText=="1"){
+					//存cookie
+					addCookie("userphone",$(".userphone").val(),30);
+					location.href="index.html";
+				}else{
+					alert("登录失败，账号或者密码错误！");
+				}
+			}
+		}
+
+		// 4、
+		xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+		let str=`userphone=${$(".userphone").val()}&userpass=${$(".userpass").val()}`;
+		xhr.send(str);
+		
+	});
+}	
+
+
+
+</script>
