@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			#swiper_box{
+				width:1000px;
+				height:500px;
+				border:1px solid black;
+			}
+		</style>
+	</head>
+	<body style="height:1000px;">
+		<div id="swiper_box"></div>
+	</body>
+</html>
+<script type="text/javascript" src='js/bannerPic.js'></script>
+<script type="text/javascript" src='js/mover.js'></script>
+<script type="text/javascript">
+	function $(id){
+		return document.getElementById(id);
+	}
+	window.onload = function(){
+		new BannerPic({
+				"boxDom":$("swiper_box"),//轮播图的容器
+				"imgs":["img/b.jpg","img/b2.jpg","img/b3.jpg"],
+				"douIsCircle":false,//是否是圆的
+				"doudouDirection":"下",
+				"douWidth":100,
+				"douHeight":5,
+				"direPrevLeft":240,
+				"timeSpace":5000,
+			});	
+	}
+</script>
